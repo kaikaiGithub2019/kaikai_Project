@@ -1,0 +1,124 @@
+.background-attachment{
+    background-image: url('../IMG/1.jpg');
+    background-repeat: no-repeat;
+   /* background-attachment: fixed; 背景图像是固定的*/
+    background-attachment: scroll;
+    background-position: center top;
+}
+p.html{
+    text-transform: uppercase;/*定义仅有大写字母*/
+    text-align: center;
+    font-size: 40px;
+}
+p.head{
+    text-transform: lowercase;/*仅有小写字母*/
+    text-align: left;
+    font-size: 30px;
+}
+p.title{
+    text-transform: capitalize;/*文本中的每个单词以大写字母开头*/
+    text-align: right;
+    font-size: 20px;
+}
+.a:link {color:#00FFFF;}      /* 未访问链接*/
+.a:visited {color:#FF0000;}  /* 已访问链接 */
+.a:hover {color:#FF00FF;}  /* 鼠标移动到链接上 */
+.a:active {color:#0000FF;}  /* 鼠标点击时 */
+
+
+
+table.reference{border-collapse:collapse;width:100%;margin-bottom:4px;margin-top:4px}
+table.reference tr:nth-child(odd){background-color:#f6f4f0}
+table.reference tr:nth-child(even){background-color:#fff}
+table.reference th{color:#fff;background-color:#555;border:1px solid #555;font-size:12px;
+    padding:3px;vertical-align:top;text-align:left}
+table.reference td{line-height:2em;min-width:24px;border:1px solid #d4d4d4;
+    padding:5px;padding-top:7px;padding-bottom:7px;vertical-align:top}
+
+/*
+table.t1{
+    border-collapse: collapse;
+    width: 100%;
+}
+table.t1 tr:nth-child(odd){
+    background-color:#f6f4f0
+}
+table.t1 tr:nth-child(even){
+    background-color:#fff
+}
+table.t1 th{
+   text-align: left;
+    background-color: #00cfff;
+    color: white;
+    font-size:16px;
+    padding-left: 3px;
+    padding-top: 0px;
+    vertical-align:top
+}
+table.t1 td{
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 7px;
+}
+.t1 th,.t1 td{
+    border: 1px solid #00cfff;
+}
+*/
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+p.outset{
+    border-left:5px solid red;
+    border-top:10px solid transparent;
+    border-bottom:10px solid transparent;
+
+}
+.img2{
+    visibility: hidden;
+    /*display: none;*/
+}
+div.auto{
+    margin: auto;
+    width: 50%;
+    border: 1px solid #00FF00;
+    text-align: center;
+}
+ul{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: coral;
+    border: 2px solid #FF0000;
+}
+li a{
+    display: block;
+    color: seagreen;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li{
+    text-align: center;
+    border-bottom:2px solid #FF0000;
+}
+li:last-child{
+    border-bottom: none;
+}
+li:nth-child(old) {
+    background-color: #0000FF;
+}
+li:nth-child(even) {
+    background-color: #FF00FF;
+}
+li a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+li a:hover:not(.active){
+    background-color: aqua;
+    color: white;
+}

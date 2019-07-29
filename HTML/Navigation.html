@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+body{
+    margin: 0px;
+}
+
+.div1{
+    border: 1px solid transparent;
+    background: #00FFFF;
+    height: 60px;
+    width: 100%;
+}
+
+.div2{
+    border: 0px solid transparent;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    height: 1000px;
+    float: left;
+}
+.div3{
+    border: 1px solid transparent;
+    margin-left: 10%;
+    height: 1000px;
+}
+.div4{
+    border: 1px solid transparent;
+    background: #00FFFF;
+    height: 60px;
+    width: 100%;
+    clear: both;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+        }
+li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration:none;
+    text-align: left;
+        }
+li a.active{
+    background-color: #00FF00;
+    color: black;
+}
+ li a:hover:not(.active){
+     background-color: #555;
+     color: white;
+ }
+
+    </style>
+</head>
+<body>
+<div class="div1">
+<h1>标题</h1>
+</div>
+<div class="div2">
+    <ul>
+    <li><a href="#a" class="active">baidu</a></li>
+    <li><a href="#b">taobao</a></li>
+    <li><a href="#c">bilibili</a></li>
+    <li><a href="#d">meituan</a></li>
+    <li><a href="#e">jd</a></li>
+    <li><a href="#f">elm</a></li>
+    <li><a href="#g">kfc</a></li>
+</ul>
+</div>
+<div class="div3">
+    <h2>Fixed Full-height Side Nav</h2>
+    <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+    <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+    <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+    <p>Some text..</p>
+    <p>Some text..</p>
+    <p>Some text..</p>
+    <p>Some text..</p>
+    <p>Some text..</p>
+    <p>Some text..</p>
+    <p>Some text..</p>
+</div>
+<div class="div4">
+</div>
+</body>
+</html>
