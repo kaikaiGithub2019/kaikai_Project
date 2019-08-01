@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f36921e3-fa0d-42c5-a96d-7c151eab55f2" name="Default Changelist" comment="" />
+    <list default="true" id="f36921e3-fa0d-42c5-a96d-7c151eab55f2" name="Default Changelist" comment="A_01">
+      <change afterPath="$PROJECT_DIR$/HTML/DIV2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/CSS_00.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/CSS_00.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/DIV.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Navigation.html" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,30 +19,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS/CSS_00.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3100">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/HTML_0.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML/Navigation.html">
+        <entry file="file://$PROJECT_DIR$/HTML/DIV2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="575">
+              <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,13 +46,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/JS/啊我的娃娃啊哇哇大.js" />
         <option value="$PROJECT_DIR$/CSS/CSS_00.css" />
+        <option value="$PROJECT_DIR$/HTML/Navigation.html" />
+        <option value="$PROJECT_DIR$/HTML/DIV.html" />
+        <option value="$PROJECT_DIR$/HTML/DIV2.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="371" />
-    <option name="y" value="135" />
+    <option name="x" value="197" />
+    <option name="y" value="122" />
     <option name="width" value="1475" />
     <option name="height" value="875" />
   </component>
@@ -60,6 +66,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,16 +87,21 @@
             <path>
               <item name="Project_2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project_2019" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2019" type="462c0819:PsiDirectoryNode" />
               <item name="Plugin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -130,16 +142,40 @@
       <option name="presentableId" value="Default" />
       <updated>1564381232711</updated>
       <workItem from="1564381234379" duration="1435000" />
-      <workItem from="1564387712440" duration="2626000" />
+      <workItem from="1564387712440" duration="3527000" />
+      <workItem from="1564555062475" duration="11079000" />
+      <workItem from="1564625764372" duration="10289000" />
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0001">
+      <created>1564391824277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564391824277</updated>
+    </task>
+    <task id="LOCAL-00003" summary="A_01">
+      <created>1564392008932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564392008932</updated>
+    </task>
+    <task id="LOCAL-00004" summary="A_01">
+      <created>1564567034237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564567034237</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5819000" />
+    <option name="totallyTimeSpent" value="28088000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="371" y="135" width="1475" height="875" extended-state="0" />
+    <frame x="197" y="122" width="1475" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13709116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -185,32 +221,48 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0001" />
-    <option name="LAST_COMMIT_MESSAGE" value="0001" />
+    <MESSAGE value="A_01" />
+    <option name="LAST_COMMIT_MESSAGE" value="A_01" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS/啊我的娃娃啊哇哇大.js" />
     <entry file="https://github.com/kaikaiGithub2019/kaikai_Project.git">
       <provider selected="true" editor-type-id="httpFileEditor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/JS/啊我的娃娃啊哇哇大.js" />
     <entry file="file://$PROJECT_DIR$/HTML/test_css.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1050" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/CSS_00.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3100">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/HTML_0.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS_00.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="111" column="17" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/DIV.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1277">
+          <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/Navigation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="665">
+          <caret line="105" column="41" lean-forward="true" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/DIV2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
