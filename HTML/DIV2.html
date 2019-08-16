@@ -13,29 +13,52 @@
         padding: 0;
         overflow: hidden;
         background-color: #333;
-        position: fixed;
         top: 0;
         width: 100%;
+       position: fixed;
     }
 
    .d1 li {
         float: left;
     }
-
-  .d1  li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+  .d1  li a, .dropbtn_00 {
+      display:inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
     }
 
-  .d1  li a:hover:not(.active) {
-        background-color: #111;
+  .d1  li a:hover:not(.active) ,.dropbtn_00:hover:not(.active){
+        background-color: #FFD700;
     }
 
    .d1 .active {
         background-color: #4CAF50;
+    }
+   .dropdown_00{
+       display: inline-block;
+   }
+   .drop-content_00{
+       position: absolute;
+       position: fixed;
+       display: none;
+       background-color: #f9f9f9;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   }
+   .drop-content_00 a{
+       color: black;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+   }
+   .dropdown_00:hover .drop-content_00{
+       display: block;
+   }
+    .drop-content_00 a:hover{
+        background-color: #4CAF50;
+        color: white;
     }
    .d2{
        position: fixed;
@@ -69,16 +92,70 @@
         color: white;
         background-color: #FFD700;
     }
-
+    .dropdown{
+        margin-left: 60px;
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+    .dropdown2{
+        margin-left: 80px;
+        display: inline-block;
+    }
+    .dropbtn2{
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown-content2{
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .dropdown-content2 a{
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown2:hover .dropdown-content2{
+        display: block;
+    }
+    .dropdown-content2 a:hover{
+        background-color: #4CAF50;
+        color: white;
+    }
 
 </style>
 <body>
 <div class="d1">
 <ul>
     <li><a class="active" href="#home">主页</a></li>
-    <li><a href="#news">新闻</a></li>
-    <li><a href="#contact">联系</a></li>
-    <li><a href="#about">关于</a></li>
+    <li><a href="#news" class="news">新闻</a></li>
+    <li><a href="#contact" class="contact">联系</a></li>
+    <li><a href="#about" class="btn">关于</a></li>
+    <div class="dropdown_00">
+        <a href="#" class="dropbtn_00">下拉菜单</a>
+        <div class="drop-content_00">
+            <a href="#">链接 1</a>
+            <a href="#">链接 2</a>
+            <a href="#">链接 3</a>
+        </div>
+    </div>
 </ul>
 </div>
 
@@ -93,6 +170,7 @@
         <li><a href="#g">kfc</a></li>
     </ul>
 </div>
+
 <div style="padding:20px;margin-top:30px;height:1500px;margin-left: 150px" class="d3">
     <h1>Fixed Top Navigation Bar</h1>
     <h2>Scroll this page to see the effect</h2>
@@ -117,6 +195,21 @@
     <p>Some text some text some text some text..</p>
     <p>Some text some text some text some text..</p>
     <p>Some text some text some text some text..</p>
+    <div class="dropdown">
+        <span>鼠标移动到我这！</span>
+        <div class="dropdown-content">
+            <p>菜鸟教程</p>
+            <p>www.runoob.com</p>
+        </div>
+    </div>
+    <div class="dropdown2">
+        <button class="dropbtn2">下拉菜单</button>
+        <div class="dropdown-content2">
+            <a href="//www.runoob.com">菜鸟教程 1</a>
+            <a href="//www.runoob.com">菜鸟教程 2</a>
+            <a href="//www.runoob.com">菜鸟教程 3</a>
+        </div>
+    </div>
 </div>
 </body>
 </html>
