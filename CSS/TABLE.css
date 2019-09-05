@@ -1,0 +1,6 @@
+table,th,td{
+    border: 2px solid #aaa;
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse; <!-- 表示表格的两边框合并为一条 -->
+}
